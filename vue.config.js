@@ -12,9 +12,9 @@
 
 module.exports = {
 	//基本路径 3.2.0
-	baseUrl: './', // 启用相对路径(vue 默认删除开头的./    如果要加上./，请使用 ././) vue-cli =>3.2.0
+	// baseUrl: './', // 启用相对路径(vue 默认删除开头的./    如果要加上./，请使用 ././) vue-cli =>3.2.0
 	//基本路径 3.3.0
-	// publicPath： './', //  vue-cli =>3.3.0
+	publicPath: './', //  vue-cli =>3.3.0
 
 	// //输出文件目录
 	outputDir: './dist',
