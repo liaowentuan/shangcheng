@@ -18,6 +18,9 @@ export default {
   margin: 0;
   box-sizing: border-box;
 }
+ul,ol{
+  list-style: none;
+}
 .container {
   height: 667px;
   display: flex;
@@ -25,16 +28,15 @@ export default {
   justify-content: space-between;
   .header {
     flex-basis: 50px;
-    background: greenyellow;
+    border-bottom: 1px solid #333;
   }
   .main{
     flex: 1;
-    background: red;
     overflow: auto;
   }
   .footer{
     flex-basis: 50px;
-    background: greenyellow;
+    border-top: 1px solid #333;
   }
 }
 </style>
